@@ -2,13 +2,13 @@
             @font-face {
                 font-family: "GrifinitoLMedium";
                 font-display: fallback;
-                src: url(/_nuxt/fonts/GrifinitoLMedium.b096cd6.woff2) format("woff2"),url(/_nuxt/fonts/GrifinitoLMedium.4cde65b.woff) format("woff")
+                src: url(https://raw.githubusercontent.com/Efetivos/gallery/master/fonts/GrifinitoLMedium.woff2) format("woff2"),url(https://raw.githubusercontent.com/Efetivos/gallery/master/fonts/GrifinitoLMedium.woff2) format("woff")
             }
 
             @font-face {
                 font-family: "HelveticaRegular";
                 font-display: fallback;
-                src: url(/_nuxt/fonts/HelveticaRegular.568697e.woff2) format("woff2"),url(/_nuxt/fonts/HelveticaRegular.c4411bb.woff) format("woff")
+                src: url(https://raw.githubusercontent.com/Efetivos/gallery/master/fonts/HelveticaRegular.woff2) format("woff2"),url(https://raw.githubusercontent.com/Efetivos/gallery/master/fonts/HelveticaRegular.woff) format("woff")
             }
 
             @font-face {
