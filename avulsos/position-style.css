@@ -32,17 +32,17 @@ body, * {
 }
 
 .one {
-  background-color: powderblue;
+  background-color: #0496ff;
 }
 
 .two {
-  background-color: royalblue;
+  background-color: #ffbc42;
 }
 
 .three {
-  background-color: sienna;
+  background-color: #e1bb80;
 }
 
 .four {
-  background-color: slateblue;
+  background-color: #e26d5c;
 }
