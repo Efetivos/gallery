@@ -1,0 +1,171 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html, *  {
+	--bd-radius: 0.75rem;
+	--white: #ffffff;
+	--bg: #f1f1f1;
+	--border: #E5E5E5;
+	--gray: #C0C0C0;
+	--black: #000000;
+	--color: #c90000;
+	--fs-normal: 1.6rem;
+	--color-parag: var(--gray);
+	--color-title: var(--black);
+	--fs-small: 1.4rem;
+	--fs-title: 2rem;
+	--gap: 1rem;
+	font-family: 'Arimo', sans-serif;
+	font-size: calc(100vw / 375 * 10);
+	font-weight: 400;
+}
+
+@media screen and (min-width: 480px) {
+	html, *  {
+		font-size: calc(100vw / 900 * 10);
+		--fs-small: 1.8rem;
+		--fs-normal: 2rem;
+		--fs-title: 3rem;
+
+	}
+}
+@media only screen and (min-width: 1025px) {
+	html, *  {
+		font-size: calc(100vw / 1920 * 10);
+		--bd-radius: 1rem;
+		--fs-normal: 1.8rem;
+		--fs-small: 2rem;
+		--fs-title: 3.6rem;
+		--gap: 4rem;
+	}
+}
+
+body {
+	background: var(--bg);
+	width: 100vw;
+	overflow: hidden;
+	overflow-y: auto;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/* _________________________ utils _________________________  */
+/* _________________________ utils _________________________  */
+/* _________________________ utils _________________________  */
+
+.t-medium {
+	font-weight: 500;
+}
+.e-rel {
+	position: relative;
+}
+.e-dn {
+	display: none;
+}
+.e-white {
+	background: var(--white);
+}
+
+a {
+	color: var(--black);
+	text-decoration: none;
+	display: block;
+}
+.e-flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.e-flex-col {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+picture, img, video {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+button {
+	background: transparent;
+	border: none
+}
+.e-holder {
+	width: calc(100vw - var(--gap) * 2);
+	padding: 0 var(--gap);
+	margin: 0 0 0 var(--gap);
+}
+
+section {
+	margin: var(--gap) 0;
+}
+
+.bd-style {
+	border-radius: 0.75rem;
+	border: 1px solid var(--border);
+	overflow: hidden;
+}
+.t-title {
+	font-size: var(--fs-title);
+	font-weight: 500;
+}
+
+p {
+	font-size: var(--fs-normal);
+	color: var(--color-parag);
+	font-weight: 400;
+	line-height: 140%;
+}
+
+.subtitle {
+	font-size: var(--fs-title);
+	line-height: 120%;
+}
+.trg-switch {
+	cursor: pointer;
+}
