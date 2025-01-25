@@ -20,7 +20,8 @@ const tl_header = gsap.timeline({ defaults: { ease: 'expo.out' } })
     .from('.bg-media video', { duration: time, scale: 2, ease: 'expo.inOut' }, 0)
 
 
-const tl_master = gsap.timeline({ onComplete:() => { console.log('the animation is done') })
+const tl_master = gsap.timeline()
 .add(tl_intro)
 .add(tl_header, '-=.8')
 
+console.log('from GitHub') 
