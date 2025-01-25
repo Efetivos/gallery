@@ -23,5 +23,4 @@ const tl_header = gsap.timeline({ defaults: { ease: 'expo.out' } })
 const tl_master = gsap.timeline()
 .add(tl_intro)
 .add(tl_header, '-=.8')
-
-alert('from GitHub') 
+console.log('this is from GitHub')
