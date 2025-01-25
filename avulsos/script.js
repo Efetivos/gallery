@@ -24,4 +24,4 @@ const tl_master = gsap.timeline()
 .add(tl_intro)
 .add(tl_header, '-=.8')
 
-console.log('from GitHub') 
+alert('from GitHub') 
